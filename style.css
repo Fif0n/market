@@ -1,9 +1,13 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
 body {
     margin: 0;
 }
 .container {
     display: flex;
     width: 100%;
+    flex-direction: column;
 }
 .four-plates {
     width: 100%;
@@ -26,11 +30,12 @@ body {
 .lower-panel {
     display: flex;
 }
-
-
-
 .collection {
     margin: 0 10px;
+}
+.collection img {
+    width: 100%;
+    height: 100%;
 }
 .photo-text {
     position: relative;
@@ -54,7 +59,7 @@ body {
     vertical-align: middle;
     background-color: red;
 }
-.collection:hover img {
+.collection:hover, .photo-card:hover img {
     opacity: 1;
 	-webkit-animation: flash 1.5s;
 	animation: flash 1.5s;
@@ -75,9 +80,72 @@ body {
 		opacity: 1;
 	}
 }
-
-img {
-    width: 100%;
-    height: 100%;
+.top-products h1{
+    font-size: 42px;
 }
+.top-products h1::before {
+    content: '';
+    height: 1px;
+    display: block;
+    width: 30px;
+    background-color: red;
+    margin: 20px auto;
+}
+.top-products {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 50px auto;
+    
+}
+.glide {
+    margin: 0 auto;
+}
+.slide-photo {
+    display: flex;
+    flex: 1;
+    
+}
+.photo-card {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: space-between;
+    
+}
+
+.cloth-type {
+    color: rgb(141, 140, 140);
+    font-size: 11px;
+    margin: 20px 0 10px 0 ;
+}
+.cloth-type:hover {
+    color: rgb(238, 61, 17);
+}
+.photo-card h3 {
+    color: rgb(22, 22, 22);
+    margin: 0 ;
+}
+.photo-card h3:hover {
+    color: rgb(238, 61, 17);
+}
+.cloth-prize {
+    color: rgb(238, 61, 17);
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.glide__arrow {
+    font-size: 34px;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+
+
 

@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online Market</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href=".git/glide-3.4.1/dist/css/glide.core.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -20,7 +23,6 @@
             </div>
             <div class="right-panel">
                 <div class="upper-panel">
-                    
                     <div class="collection">
                         <img src="photos/women.webp">
                         <div class="photo-text">
@@ -28,25 +30,110 @@
                         </div>
                     </div>
                 </div>
-                <div class="lower-panel">
-                   
+                <div class="lower-panel">                 
                     <div class="collection">
                         <img src="photos/winter.jpg">
                         <div class="photo-text">
                             <h2><span>Winter Collection</span></h2>
                         </div>
                     </div>
-                  
                     <div class="collection">
                         <img src="photos/hipster.jpg">
                         <div class="photo-text">
                             <h2><span>Hipster Collection</span></h2>
                         </div>
                     </div>
-                    
                 </div>
             </div>
         </section>
+        <section class="top-products">
+            <h1>Top Products</h1>
+            <div class="glide">
+                <div class="glide__track" data-glide-el="track">
+                    <ul class="glide__slides">
+                    <li class="glide__slide">
+                        <div class="slide-photo">
+                            <div class="photo-card"><img src="photos/product1.jpg">
+                                <p class="cloth-type">POLO</p>
+                                <h3>Light turtleneck</h3>
+                                <p class="cloth-prize">$23.00 – $32.00</p>
+                            </div>                            
+                            <div class="photo-card"><img src="photos/product2.jpg">
+                                <p class="cloth-type">COLLECTION</p>
+                                <h3>Men’s t-shirt</h3>
+                                <p class="cloth-prize">$20.00 – $30.00</p>
+                            </div>                            
+                            <div class="photo-card"><img src="photos/product3.jpg">
+                                <p class="cloth-type">DRESS</p>
+                                <h3>Midi dress</h3>
+                                <p class="cloth-prize">$110.00 – $135.00</p>
+                            </div>                 
+                            <div class="photo-card"><img src="photos/product4.jpg">
+                                <p class="cloth-type">SEASON</p>
+                                <h3>Men’s longsleave</h3>
+                                <p class="cloth-prize">$45.00 – $55.00</p>
+                            </div>                 
+                        </div>
+                    </li>
+                    <li class="glide__slide">
+                        <div class="slide-photo">
+                            <div class="photo-card"><img src="photos/product5.webp">
+                                <p class="cloth-type">DRESS</p>
+                                <h3>Sundress newpoint</h3>
+                                <p class="cloth-prize">$85.00 – $95.00</p>
+                            </div>                            
+                            <div class="photo-card"><img src="photos/product6.webp">
+                                <p class="cloth-type">COLLECTION</p>
+                                <h3>Women’s sundress</h3>
+                                <p class="cloth-prize">$35.00 – $45.00</p>
+                            </div>                            
+                            <div class="photo-card"><img src="photos/product7.webp">
+                                <p class="cloth-type">SALE</p>
+                                <h3>Set-in sweater</h3>
+                                <p class="cloth-prize">$65.00 – $75.00</p>
+                            </div>                 
+                            <div class="photo-card"><img src="photos/product8.webp">
+                                <p class="cloth-type">SALE</p>
+                                <h3>Stylish blouse</h3>
+                                <p class="cloth-prize">$40.00 – $50.00</p>
+                            </div>                 
+                        </div>
+                    </li>
+                    <li class="glide__slide">
+                        <div class="slide-photo">
+                            <div class="photo-card"><img src="photos/product2.jpg">
+                                <p class="cloth-type">COLLECTION</p>
+                                <h3>Men’s t-shirt</h3>
+                                <p class="cloth-prize">$20.00 – $30.00</p>
+                            </div>                            
+                            <div class="photo-card"><img src="photos/product5.webp">
+                                <p class="cloth-type">DRESS</p>
+                                <h3>Sundress newpoint</h3>
+                                <p class="cloth-prize">$85.00 – $95.00</p>
+                            </div>                            
+                            <div class="photo-card"><img src="photos/product3.jpg">
+                                <p class="cloth-type">DERESS</p>
+                                <h3>Midi dress</h3>
+                                <p class="cloth-prize">$110.00 – $135.00</p>
+                            </div>                 
+                            <div class="photo-card"><img src="photos/product8.webp">
+                                <p class="cloth-type">SALE</p>
+                                <h3>Stylish blouse</h3>
+                                <p class="cloth-prize">$40.00 – $50.00</p>
+                            </div>                 
+                        </div>
+                    </li>
+                  </ul>
+                  <div class="glide__arrows" data-glide-el="controls">
+                    <button class="glide__arrow glide__arrow--left" data-glide-dir="<">←</button>
+                    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">→</button>
+                  </div>
+                </div>
+              </div>
+        </section>
     </div>
+
+    <script src=".git/glide-3.4.1/dist/glide.min.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
