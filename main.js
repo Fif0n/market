@@ -1,5 +1,5 @@
 new Glide('.glide', {
     autoplay: 3000,
-    hoverpause: false,
+    hoverpause: true,
     
 }).mount();
